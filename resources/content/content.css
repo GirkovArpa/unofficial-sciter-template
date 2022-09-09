@@ -1,0 +1,9 @@
+@set content {
+  :root {
+    width: *; 
+    height: *;
+    padding: 1em;
+    flow: vertical;
+    border-spacing: 0.5em;
+  }
+}

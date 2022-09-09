@@ -1,0 +1,12 @@
+@set status-bar {
+  :root {
+    width: *; 
+    height: 1em;
+    padding: 0.25em;
+    flow: vertical;
+    vertical-align: middle;
+    line-height: 1em;
+    background: #f0f0f0;
+    border-top: 1dip solid grey;
+  }
+}
