@@ -15,7 +15,7 @@ An alternative to [Quark](https://quark.sciter.com/) and the [official template]
 
 ## Instructions
 
-1. Download [scapp.exe](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/scapp.exe), [sciter.dll](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/sciter.dll), & [inspector.exe](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/inspector.exe).
+1. Download [scapp.exe](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/scapp.exe), [sciter.dll](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/sciter.dll), [inspector.exe](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/x32/inspector.exe), & [packfolder.exe](https://gitlab.com/sciter-engine/sciter-js-sdk/-/blob/7a38ab467a08186e2ccf0f5716fed851bf367829/bin/windows/packfolder.exe).
 2. Put them in this folder.
 3. Run `scapp.exe`.
 

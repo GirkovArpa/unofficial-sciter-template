@@ -1,12 +1,27 @@
 <html window-icon="logo/24.png">
+
   <head>
     <title>Unofficial Sciter Template</title>
     <link href="main.css" rel="stylesheet" />
     <script type="module">
       import { Application } from 'main.js';
       document.body.patch(<Application />);
+
+      document.$('menu(help) > (about)').on('click', () => {
+        Window.this.modal({ url: 'about/about.htm' });
+      });
     </script>
+    <menu .window>
+      <li>
+        Help
+        <menu (help)>
+      <li (about)>About&hellip;</li>
+    </menu>
+    </li>
+    </menu>
     <include src="tray/tray-menu.htm" media="sciter" />
   </head>
+
   <body></body>
+
 </html>

@@ -27,7 +27,7 @@ export class About extends Element {
             <img id="logo" src='../logo/128.png' width="64" height="64" />
             <div id="title">
               <div>Unofficial Sciter Template</div>
-              <div>v0.1.0</div>
+              <div>v0.2.0</div>
             </div>
           </div>
           <div id="contents">

@@ -1,4 +1,3 @@
-import { MenuBar } from 'menu/menu-bar.js';
 import { Content } from 'content/content.js';
 import { StatusBar } from 'status/status-bar.js';
 
@@ -16,10 +15,6 @@ export class Application extends Element {
         menu.popupAt(screenX - sx, screenY - sy, 2);
       }
     });
-
-    document.on('click', 'menu#tray-menu > [name=about]', () => {
-      Window.this.modal({ url: 'about/about.htm' });
-    });
   }
 
   componentDidMount() {
@@ -34,7 +29,6 @@ export class Application extends Element {
   render() {
     return (
       <body>
-        <MenuBar />
         <Content app={this} />
         <StatusBar app={this} />
       </body>
